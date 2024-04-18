@@ -16,36 +16,41 @@
   </head>
   <body>
     <!-- Header/ navigation -->
-    <header>
+    <header id="home">
       <nav class="nav">
         <div>
           <ul class="sidebar--container hidden">
             <li>
-              <img class="close" src="./images/close_FILL0_wght400_GRAD0_opsz24.png" />
+              <img
+                class="close"
+                src="./images/close_FILL0_wght400_GRAD0_opsz24.png"
+              />
             </li>
             <li class="list--li">
-              <a class="link--a side-a" href="#">Home</a>
+              <a class="link--a side-a" href="#home">Home</a>
             </li>
             <li class="list--li">
-              <a class="link--a side-a" href="#">About</a>
+              <a class="link--a side-a" href="#about">About</a>
             </li>
             <li class="list--li">
-              <a class="link--a side-a" href="#">Projects</a>
+              <a class="link--a side-a" href="#projects">Projects</a>
             </li>
-            <button class="btn sidebar-btn">contact</button>
+            <button class="btn sidebar-btn">Resume</button>
           </ul>
           <ul class="links--container">
             <li class="list--li"><a class="logo" href="#">Jason</a></li>
             <li class="list--li hideOnMobile">
-              <a class="link--a" href="#">Home</a>
+              <a class="link--a" href="#home">Home</a>
             </li>
             <li class="list--li hideOnMobile">
-              <a class="link--a" href="#">About</a>
+              <a class="link--a" href="#about">About</a>
             </li>
             <li class="list--li hideOnMobile">
-              <a class="link--a" href="#">Projects</a>
+              <a class="link--a" href="#projects">Projects</a>
             </li>
-            <button class="btn hideOnMobile">Contact Me</button>
+            <a href="./images/Jason Gonzalez-2.pdf" download="resume"
+              ><button class="btn hideOnMobile">Resume</button></a
+            >
             <li>
               <img
                 class="menu menu-button"
@@ -57,21 +62,39 @@
       </nav>
       <div class="header-container">
         <div class="header-title">
-          <h1 class="typewriter">hello, i'm <span>jason</span></h1>
-          <h4>An aspiring front-end developer</h4>
-          <button class="btn--text btn--scroll-to">Learn more &DownArrow; </button>
-            </div>
-            <img class="pic" src="./images/depositphotos_133260890-stock-illustration-programmer-sitting-on-big-laptop.jpeg" />
-    </header>
-    <section class="about">
-        <div class="info-container">
-          <h1>About Me</h1>
+          <div>
+            <h1 class="name">hello, i'm <span class="typedText"></span></h1>
+          </div>
+          <h3 class="detail">An aspiring front-end developer</h3>
+          <div class="links">
+            <a href="https://www.linkedin.com/in/jason-c-gonzalez-/"
+              ><img class="linkden" src="./images/🦆 icon _linkedin_.png"
+            /></a>
+            <a href="https://github.com/JasonG02"
+              ><img class="github" src="./images/🦆 icon _github_.png"
+            /></a>
+          </div>
+          <a href="#about" class="learn"> Learn more &DownArrow; </a>
         </div>
-        
-        <div class="about-info">
-          <img class='about-pic' src="./images/IMG_1741.jpg">
-          <div class="about-in">
-            <p class="p-info">An aspiring Frontend Developer who is tenacious, adaptable and always finding new methods that are efficient in problem solving. Self-motivated and a diligent learner that is constantly seeking learning opportunities to develop an extensive skill set. </p>
+        <img
+          class="pic"
+          src="./images/depositphotos_133260890-stock-illustration-programmer-sitting-on-big-laptop.jpeg"
+        />
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="info-container">
+        <h1 class="top-header">About Me</h1>
+      </div>
+      <div class="about-info">
+        <img class="about-pic" src="./images/IMG_1741.jpg" />
+        <div class="about-in">
+          <p class="p-info">
+            An aspiring Frontend Developer who is tenacious, adaptable and
+            always finding new methods that are efficient in problem solving.
+            Self-motivated and a diligent learner that is constantly seeking
+            learning opportunities to develop an extensive skill set.
+          </p>
           <div class="box">
             <h2>Education</h2>
             <h3>University of Illinois at Urbana Champaign</h3>
@@ -81,23 +104,38 @@
             <h2 class="aboutTitle">Skills</h2>
             <div class="iconSkills">
               <div class="flex">
-                <img class='check' src="./images/🦆 icon _checkmark circle 2_.png">
+                <img
+                  class="check"
+                  src="./images/🦆 icon _checkmark circle 2_.png"
+                />
                 <p class="skillP">HTML</p>
               </div>
               <div class="flex">
-                <img class='check' src="./images/🦆 icon _checkmark circle 2_.png">
+                <img
+                  class="check"
+                  src="./images/🦆 icon _checkmark circle 2_.png"
+                />
                 <p class="skillP">CSS</p>
               </div>
               <div class="flex">
-                <img  class='check' src="./images/🦆 icon _checkmark circle 2_.png">
+                <img
+                  class="check"
+                  src="./images/🦆 icon _checkmark circle 2_.png"
+                />
                 <p class="skillP">Javascript</p>
               </div>
               <div class="flex">
-                <img class='check' src="./images/🦆 icon _checkmark circle 2_.png">
+                <img
+                  class="check"
+                  src="./images/🦆 icon _checkmark circle 2_.png"
+                />
                 <p class="skillP">jQuery</p>
               </div>
               <div class="flex">
-                <img class='check' src="./images/🦆 icon _checkmark circle 2_.png">
+                <img
+                  class="check"
+                  src="./images/🦆 icon _checkmark circle 2_.png"
+                />
                 <p class="skillP">Web development</p>
               </div>
             </div>
@@ -105,10 +143,34 @@
         </div>
       </div>
     </section>
-    <section class="projects">
-        <div class="projects-container">
-            <h1>Projects</h1>
+    <section class="projects" id="projects">
+      <div class="projects-container">
+        <h1 class="proj-h1">Projects</h1>
+        <div class="projbox">
+          <div class="proj proj1">
+            <a href="https://tasktracker-f9as.onrender.com"
+              ><img src="./images/task1.png"
+            /></a>
+          </div>
+
+          <div class="proj proj2">
+            <a href="https://jasongsimongame.netlify.app"
+              ><img src="./images/simon says.png"
+            /></a>
+          </div>
+          <div class="proj proj3">
+            <a href="https://github.com/JasonG02/weather_app.git"
+              ><img src="./images/weather3.png"
+            /></a>
+          </div>
         </div>
+      </div>
     </section>
+    <footer>
+      <p>Copyright © Jason</p>
+    </footer>
   </body>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </html>
