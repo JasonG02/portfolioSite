@@ -380,6 +380,9 @@ footer {
   background-color: #444;
   color: white;
 }
+.learn:hover {
+  color: orange;
+}
 @media (max-width: 600px) {
   .hideOnMobile {
     display: none;
