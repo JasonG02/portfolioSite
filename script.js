@@ -40,7 +40,6 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".about-pic", { delay: 100 });
-srRight.reveal(".p-info", { delay: 100 });
 srRight.reveal(".box", {});
 srRight.reveal(".boxTwo", {});
 sr.reveal(".detail", {});
