@@ -278,6 +278,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .about-in {
